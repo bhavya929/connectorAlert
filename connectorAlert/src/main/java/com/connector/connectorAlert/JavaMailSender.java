@@ -22,7 +22,7 @@ public class JavaMailSender {
 	/**
 	 * Send the email via SMTP using TLS and SSL
 	 */
-	private static void sendEmail() {
+	public static void sendEmail() {
  
 		// Create all the needed properties
 		Properties connectionProperties = new Properties();
